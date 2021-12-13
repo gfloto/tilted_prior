@@ -4,7 +4,7 @@ This code is for the tilted prior paper (below) is built from this [repo](https:
 > Griffin Floto, Stefan Kremer and Mihai Nica [Exponentially Tilted Gaussian Prior for Variational Autoencoder](https://arxiv.org/pdf/2111.15646.pdf). In arXiv preprint
 arXiv:2111.15646, 2021
 
-Below is a visualization of a network latent space that was trained on the MNIST dataset. Each data point corresponds to a $\mu^i$ for a given image $x^i$. For this visualization $d_z =3$ and $\tau =10$. 
+Below is a visualization of a network latent space that was trained on the MNIST dataset. Each data point corresponds to a mu for a given image x. For this visualization dz=3 and tau =10. 
 
 <p align="center">
   <img src="latent_mnist.gif" width="400" height="400" />
