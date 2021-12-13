@@ -19,12 +19,12 @@ The train.py scipt is used to train a VAE with both the standard Gaussian and th
 | --testname | required, name of folder network is stored |
 | --dataset | training dataset (you have to download) |
 | --loss | either l2 or cross_entropy |
-| --tilt | $\tau$ - prior tilt, None for standard VAE |
-| --nz | $d_z$ - the dimension of the latent space |
+| --tilt | prior tilt (tau), None for standard VAE |
+| --nz | the dimension of the latent space |
 | --epochs | number of training epochs |
 | --lr | learning rate |
 | --ratio | trains the backround model for Likelihood Ratios |
-| --perturbed | $\mu$ hyperparameter for background model |
+| --perturbed | mu hyperparameter for background model |
 | --images | saves image reconstructions and samples |
 
 ## Evaluation
